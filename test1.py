@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def my_function():
-  print("In my function")
+def my_function(counter):
+  print("Counter: {}".format(counter))
   
-my_function()
+my_function(12)
